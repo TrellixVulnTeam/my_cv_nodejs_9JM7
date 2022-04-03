@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+</head>
+<body>
+    <div class="main_container">
+        <div class="head_container">
+            <div class="top">
+                <div class="img">
+                    <img src="img/myPhoto_cat.jpg">
+                </div>
+                <div class="nameTitle">
+                    <span>Trần Tấn Thành</span>
+                </div>
+                <div class="intro">
+                    {{!--animation--}} {{!--<span>Code the dream</span>--}}
+                    <h1 class="ml1">
+                        <span class="text-wrapper">
+                            <span class="letters">CODE THE DREAM</span>
+                            <span class="line line2"></span>
+                        </span>
+                    </h1>
+                    {{!-- end --}}
+                </div>
+            </div>
+            <div class="nav_container">
+                <nav class="nav_wrapper">
+                </nav>
+            </div>
+        </div>
+        <div class="body_container">
+            {{{body}}}
+        </div>
+        <div class="foot_container">
+
+        </div>
+    </div>
+    <script src="js/animation.js"></script>
+    <script src="js/navRender.js"></script>
+</body>
+</html>

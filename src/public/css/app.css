@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.main_container .head_container .top {
+  background-color: #232527; }
+  .main_container .head_container .top .img img {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px;
+    padding-top: 30px; }
+  .main_container .head_container .top .nameTitle span {
+    color: #ccd3d9;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px; }
+  .main_container .head_container .top .intro {
+    color: #ccd3d9;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px; }
+
+.main_container .head_container .nav_container .nav_wrapper {
+  text-align: center;
+  background-color: #232527;
+  padding-bottom: 30px;
+  padding-top: 50px; }
+  .main_container .head_container .nav_container .nav_wrapper .title_navbar {
+    font-size: 25px;
+    padding: 4px 80px;
+    cursor: pointer;
+    display: inline-block;
+    color: #ccd3d9; }
+    .main_container .head_container .nav_container .nav_wrapper .title_navbar:hover {
+      background-color: #67737c; }
+
+.main_container .body_container .body_top .body_title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px; }
+
+.main_container .body_container .body_top .body_intro {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.main_container .body_container .body_top .projects_container {
+  padding: 10px 100px;
+  text-align: center; }
+  .main_container .body_container .body_top .projects_container a .project_wrapper {
+    border: 3px black solid;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px; }
+    .main_container .body_container .body_top .projects_container a .project_wrapper .project_img {
+      opacity: 100%; }
+    .main_container .body_container .body_top .projects_container a .project_wrapper .project_title {
+      color: black;
+      font-size: 30px; }
+    .main_container .body_container .body_top .projects_container a .project_wrapper .project_description {
+      color: black;
+      font-size: 20px; }

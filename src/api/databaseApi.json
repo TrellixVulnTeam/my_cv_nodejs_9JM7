@@ -1,0 +1,108 @@
+{
+	"navbar_menu":[
+		{
+			"en":{
+				"Home":{
+					"id":1,
+					"name":"Home"
+				},
+				"Introductions":{
+					"id":2,
+					"name":"Introductions"
+				},
+				"Projects":{
+					"id":3,
+					"name":"Projects"
+				},
+				"Contact":{
+					"id":4,
+					"name":"Contact"
+				}
+			},
+			"vi":{
+				"Home":{
+					"id":1,
+					"name":"Trang chủ"
+				},
+				"Introductions":{
+					"id":2,
+					"name":"Giới thiệu"
+				},
+				"Projects":{
+					"id":3,
+					"name":"Các dự án"
+				},
+				"Contact":{
+					"id":4,
+					"name":"Liên hệ"
+				}
+			}
+		}
+	],
+  
+	"projects":[
+		{
+			"id":1,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"/projects/project-1",
+			"title":"Title",
+			"description":"Hi this is me"
+		},
+		{
+			"id":2,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"",
+			"title":"Title_2",
+			"description":"Hi this is me 2"
+		},
+		{
+			"id":3,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"",
+			"title":"Title_3",
+			"description":"Hi this is me 3"
+		},
+		{
+			"id":4,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"",
+			"title":"Title_4",
+			"description":"Hi this is me 4"
+		},
+		{
+			"id":5,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"",
+			"title":"Title_5",
+			"description":"Hi this is me 5"
+		},
+		{
+			"id":6,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"/projects/project-6",
+			"title":"Title_6",
+			"description":"Hi this is me 6"
+		},
+		{
+			"id":7,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"/projects/project-7",
+			"title":"Title_7",
+			"description":"Hi this is me 7"
+		},
+		{
+			"id":8,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"/projects/project-8",
+			"title":"Title_8",
+			"description":"Hi this is me 8"
+		},
+		{
+			"id":9,
+			"img": "img/myPhoto_cat.jpg",
+			"link":"/projects/project-9",
+			"title":"Title_9",
+			"description":"Hi this is me 9"
+		}
+	]
+}

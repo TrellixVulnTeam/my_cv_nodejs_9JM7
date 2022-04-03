@@ -10,7 +10,7 @@ const { engine } = require('express-handlebars');
 const route = require('./app/routes/route.js');
 const serverJson = require('./app/routes/jsonServer.route.js');
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 //engine
 app.use(express.static(path.join(__dirname, 'public'))); //open 'public' file to join browser

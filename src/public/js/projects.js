@@ -1,6 +1,6 @@
 
 
-navbarApi = `http://localhost:3000/api/projects`;
+navbarApi = `https://project-nodejs-mycv.herokuapp.com//api/projects`;
 
 fetch(navbarApi)
     .then(function (response) {

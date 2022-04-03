@@ -1,5 +1,5 @@
 
-navbarApi = `http://localhost:3000/api/navbar_menu`;
+navbarApi = `https://project-nodejs-mycv.herokuapp.com/api/navbar_menu`;
 
 fetch(navbarApi)
     .then(function (response) {

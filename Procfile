@@ -1,1 +1,1 @@
-worker: node src/server.js
+worker: heroku ps:scale web=1

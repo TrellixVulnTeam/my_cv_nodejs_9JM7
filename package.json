@@ -4,7 +4,8 @@
   "description": "This is a demo using nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "go": "nodemon src/server.js",
     "scss": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
